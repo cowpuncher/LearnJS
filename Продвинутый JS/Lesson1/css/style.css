@@ -18,7 +18,7 @@ h3 {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -77,6 +77,18 @@ a.logo {
     width: 45px;
 }
 
+.cart-button:hover {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
 main {
     padding: 25px 0;
 }
@@ -106,7 +118,7 @@ footer {
     color: #000;
     margin: 0 15px 30px;
     padding: 15px;
-    width: 30.5%;
+    width: 15%;
     -webkit-box-shadow: 0 0 1rem rgb(33 33 33 / 20%);
        -moz-box-shadow: 0 0 1rem rgb(33 33 33 / 20%);
             box-shadow: 0 0 1rem rgb(33 33 33 / 20%);
@@ -134,6 +146,12 @@ footer {
     border: 0;
     color: #fff;
     cursor: pointer;
+}
+
+.goods-add-to-cart:hover {
+    color: rgb(80 73 80);
+    background: transparent;
+    border: 1px solid;
 }
 
 .goods-item:hover img {
